@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color:cyan;
+      font-family: Arial, sans-serif;
+      padding-top: 50px; 
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-around; 
+      padding: 20px;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 16px;
+      margin: 5px 0; /* Reduced vertical margin */
+      transition: background-color 0.3s;
+      border: 1px solid #4CAF50; /* Added border */
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Added shadow */
+    }
+
+    button:hover {
+      background-color: #45a049; /* Darker green color on hover */
+    }
+  </style>
+</head>
+<body>
+
+<h1>Speeches</h1>
+
+<div class="container">
+  <div class="button-container">
+    <button onclick="window.location.href='speech1.html'">Speech 1</button>
+    <button onclick="window.location.href='speech2.html'">Speech 2</button>
+  </div>
+  <div class="button-container">
+    <button onclick="window.location.href='speech3.html'">Speech 3</button>
+    <button onclick="window.location.href='speech4.html'">Speech 4</button>
+  </div>
+</div>
+
+</body>
+</html>
